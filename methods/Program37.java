@@ -21,6 +21,7 @@ public class Program37{
 		System.out.println("Please enter the number to which you want to print the Fibonacci series.");
 		int n=scan.nextInt();
 		Program37 obj=new Program37();
+		System.out.println("The Fibonacci series is as follows :-");
 		System.out.print(" 0 1");
 		obj.fibo(0,1,n-2);
 		
